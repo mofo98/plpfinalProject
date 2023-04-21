@@ -206,7 +206,18 @@ function getProductById(id) {
         { id: "product-2.7", name: "Lemons", price: 20 },
         { id: "product-2.8", name: "Strawberries", price: 100 },
         { id: "product-2.9", name: "Mangoes", price: 30 },
-        { id: "product-2.10", name: "Passion fruits", price: 100 }
+        { id: "product-2.10", name: "Passion fruits", price: 100 },
+        { id: "product-2.11", name: "Lichi", price: 100 },
+        { id: "product-4.0", name: "Afia juice", price: 200 },
+        { id: "product-4.1", name: "Minute maid", price: 200 },
+        { id: "product-4.2", name: "Delmonte juice", price: 20 },
+        { id: "product-4.3", name: "Pepsi juice", price: 20 },
+        { id: "product-4.4", name: "Bottled coke drinks", price: 100 },
+        { id: "product-4.5", name: "Planet juice", price: 30 },
+        { id: "product-4.7", name: "Minute maid lemonode", price: 100 },
+        { id: "product-4.8", name: "Cocacola", price: 30 },
+        { id: "product-4.9", name: "Sunskit uice", price: 100 },
+        { id: "product-4.10", name: "Bottled minute maid", price: 100 }
     ];
     return products.find(product => product.id === id);
 }
